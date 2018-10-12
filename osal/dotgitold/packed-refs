@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled 
+8a4befacf100e3d4647ae0930d8212055f382f8b refs/remotes/origin/debian_build
+1176f3c44ddbc86998cecb025f199d613e77e201 refs/remotes/origin/feature/config_init_in_state
+5b2c51b65cbacb6720adb789822f7b1416fec2cf refs/remotes/origin/master
+7970224fa46ed58a0f11fd4149a649ee0fc91d44 refs/tags/v1.3.1
+^c9bbb90ed1358582332e8c815bdcdcc6affcfd7e
+8094ff1b80caa29daa0a1d4de0676371c02ec212 refs/tags/v1.3.2
+c12de6633afc02dd9fe82bc065bc69b870deb50d refs/tags/v1.3.3-beta.1

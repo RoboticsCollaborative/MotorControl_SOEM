@@ -1,0 +1,5 @@
+/opt/SOEM/build/test/linux/eepromtool/CMakeFiles/eepromtool.dir
+/opt/SOEM/build/prj/haptic/CMakeFiles/haptic_run.dir
+/opt/SOEM/build/test/linux/simple_test/CMakeFiles/simple_test.dir
+/opt/SOEM/build/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir
+/opt/SOEM/build/CMakeFiles/soem.dir

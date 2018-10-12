@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wextra -Werror    CMakeFiles/slaveinfo.dir/slaveinfo.c.o  -o slaveinfo -rdynamic ../../../libsoem.a -lpthread -lrt 

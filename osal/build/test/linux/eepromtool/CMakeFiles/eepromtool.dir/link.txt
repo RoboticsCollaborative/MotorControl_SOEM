@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wextra -Werror    CMakeFiles/eepromtool.dir/eepromtool.c.o  -o eepromtool -rdynamic ../../../libsoem.a -lpthread -lrt 

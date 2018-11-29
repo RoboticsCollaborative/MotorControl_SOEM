@@ -17,6 +17,8 @@
 
 #define Counts_per_radian 52151.8917
 #define Units_per_Nm 5000
+#define Encoder_Resolution 32767.0 // 10V -- 16Bits
+#define Volt2Radian 2.0 // 5V -- 1Rad
 
 /* Buffers for SDO transfer */
 #define READ_SDO(slave, idx, sub, buf, comment) \

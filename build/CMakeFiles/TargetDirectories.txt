@@ -1,0 +1,5 @@
+/opt/MotorControl_SOEM/build/test/linux/eepromtool/CMakeFiles/eepromtool.dir
+/opt/MotorControl_SOEM/build/prj/haptic/CMakeFiles/haptic_run.dir
+/opt/MotorControl_SOEM/build/test/linux/simple_test/CMakeFiles/simple_test.dir
+/opt/MotorControl_SOEM/build/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir
+/opt/MotorControl_SOEM/build/CMakeFiles/soem.dir

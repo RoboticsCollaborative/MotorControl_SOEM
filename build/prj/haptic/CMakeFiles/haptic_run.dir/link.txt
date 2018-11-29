@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wextra -Werror    CMakeFiles/haptic_run.dir/config_SDOparam.c.o CMakeFiles/haptic_run.dir/haptic_config.c.o CMakeFiles/haptic_run.dir/haptic_run.c.o  -o haptic_run -rdynamic ../../libsoem.a -lpthread -lrt 

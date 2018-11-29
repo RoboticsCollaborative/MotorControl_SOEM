@@ -154,7 +154,6 @@ void haptic_config(char *ifname)
 		ec_send_processdata();
                	wkc = ec_receive_processdata(EC_TIMEOUTRET);
 		ActualPosition = (in_motor->ac_pos)/Counts_per_radian;
-		ActualPosition = saturation(ActualPosition);
 		ec_send_processdata();
                	wkc = ec_receive_processdata(EC_TIMEOUTRET);
 		ReferencePosition = ActualPosition;
@@ -179,7 +178,6 @@ void haptic_config(char *ifname)
 
 		 	/* Set target position */			
 			ActualPosition = (in_motor->ac_pos)/Counts_per_radian;
-			ActualPosition = saturation(ActualPosition);
 			ActualVelocity = (in_motor->ac_vel)/Counts_per_radian/10;
 			InputTorque = PDcontroller(ReferencePosition, ActualPosition, ActualVelocity);
 			/* For damping meassure */
@@ -202,7 +200,7 @@ void haptic_config(char *ifname)
 //			fflush(stdout);
                         needlf = TRUE;
                     }
-//                    osal_usleep(50);
+                    osal_usleep(50);
 
                 }
                 inOP = FALSE;
